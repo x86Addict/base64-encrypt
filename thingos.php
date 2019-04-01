@@ -17,6 +17,6 @@ echo"This is for further protection if needed".$base64;
 echo"This is normal".$normalfy;
 
 //Something cool. can be used as a pleasant surprise.
-$bruh = "header('location: bruh.com');";
+$bruh = "header('Location: bruh.com');";
 echo eval(base64_decode($bruh)); //just base64 no variable even needed
 ?>
