@@ -9,8 +9,8 @@ header("Location: application:<?php echo $reverseBase64;?>");
 /*
 You can use this for passing URI parameters see below.
 */
+/*<!--<a href="application:<?php echo $reverseBase64;?>">Launch program</a>-->*/
 ?>
-<!--<a href="application:<?php echo $reverseBase64;?>">Launch program</a>-->
 <input type="submit" name="play" value="Launch program">
 <?php
 echo"This is for further protection if needed".$base64;
