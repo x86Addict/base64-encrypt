@@ -1,3 +1,4 @@
+<?php
 $str = "String|UserID|OtherStuff";
 $reverseBase64 = strrev(base64_encode($str)); //this reversifies to be harder to read.
 $normalfy = base64_decode(strrev($reverseBase64)); //it's decoding reversed string not. reversing decoded string. my trademark normalifies it.
